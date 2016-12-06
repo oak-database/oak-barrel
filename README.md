@@ -36,4 +36,4 @@ The public interface for `oak-barrel` is defined in the [`API Guide`](https://gi
 
 ## Contributing
 
-Pull requests are welcome! To get started, see the [`Contributing Guide`](https://github.com/oak-database/oak-barrel/blob/master/contributing.md).
+Pull requests are welcome! To get started, see the [`Contributing Guide`](https://github.com/oak-database/oak-barrel/blob/master/CONTRIBUTING.md).
