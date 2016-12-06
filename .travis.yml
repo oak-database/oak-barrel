@@ -8,6 +8,7 @@ node_js:
   - '0.12'
 
 install:
+  - nvm --version
   - npm install
 
 script:
