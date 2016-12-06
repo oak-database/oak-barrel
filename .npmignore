@@ -1,0 +1,11 @@
+src
+test
+.test
+.babelrc
+.editorconfig
+.eslintrc.json
+.gitignore
+.nycrc
+.travis.yml
+codecov.yml
+Gruntfile.js
