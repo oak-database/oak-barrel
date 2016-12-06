@@ -17,10 +17,11 @@ install:
 script:
   - nvm use $TRAVIS_NODE_VERSION
   - npm -v
-  - npm run coverage
+  - npm test
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - if [ "$TRAVIS_NODE_VERSION" = 6 ]; then npm run coverage; fi
+  - if [ "$TRAVIS_NODE_VERSION" = 6 ]; then bash <(curl -s https://codecov.io/bash); fi
 
 deploy:
   provider: npm
