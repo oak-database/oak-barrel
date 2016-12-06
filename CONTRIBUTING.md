@@ -60,7 +60,7 @@ Deployment as an npm package should be performed automatically by the continuous
 project maintainer tags a release commit.
 
 [Semantic versioning](http://semver.org/) is used for release versioning. Release versions may be preceded by at least one
-pre-lease version, with a version number such as `1.0.0-alpha.1`.
+pre-release version, with a version number such as `1.0.0-alpha.1`.
 
 ## Developing
 
