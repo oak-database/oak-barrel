@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/oak-database/oak-barrel.svg)](https://travis-ci.org/oak-database/oak-barrel)
 [![codecov](https://codecov.io/gh/oak-database/oak-barrel/branch/master/graph/badge.svg)](https://codecov.io/gh/oak-database/oak-barrel)
 [![npm](https://img.shields.io/npm/v/oak-barrel.svg)](https://www.npmjs.com/package/oak-barrel)
-[![devDependency Status](https://david-dm.org/oak-database/oak-barrel/status.svg)](https://david-dm.org/oak-database/oak-barrel)
+[![Dependency Status](https://david-dm.org/oak-database/oak-barrel/status.svg)](https://david-dm.org/oak-database/oak-barrel)
+[![devDependency Status](https://david-dm.org/oak-database/oak-barrel/dev-status.svg)](https://david-dm.org/oak-database/oak-barrel?type=dev)
 
 A barrel is a simple format for storing and transferring individual, variable-length binary objects within a byte array.
 
