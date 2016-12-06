@@ -23,7 +23,7 @@ var Barrel = require('oak-barrel'); // ES5
 
 // Convert from a String into a barrel-formatted Buffer
 let barrel = Barrel.fromText('Hello, World!');
-// <Buffer >
+// <Buffer 48 65 6c 6c 6f 2c 20 57 6f 72 6c 64 21 ff>
 
 // Convert from a barrel-formatted Buffer into a String
 let text = Barrel.toText(barrel);
@@ -32,8 +32,8 @@ let text = Barrel.toText(barrel);
 
 ## API
 
-The public interface for `oak-barrel` is defined in the [`API Guide`](https://github.com/oak-database/oak-barrel/blob/master/docs/api.md).
+The public interface for `oak-barrel` is defined in the [API Guide](https://github.com/oak-database/oak-barrel/blob/master/docs/api.md).
 
 ## Contributing
 
-Pull requests are welcome! To get started, see the [`Contributing Guide`](https://github.com/oak-database/oak-barrel/blob/master/contributing.md).
+Pull requests are welcome! To get started, see the [Contributing Guide](https://github.com/oak-database/oak-barrel/blob/master/CONTRIBUTING.md).
