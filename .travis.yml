@@ -8,10 +8,15 @@ node_js:
   - '0.12'
 
 install:
-  - nvm --version
+  - nvm install 6
+  - npm -v
   - npm install
+  - npm run lint
+  - npm run build
 
 script:
+  - nvm use $TRAVIS_NODE_VERSION
+  - npm -v
   - npm run coverage
 
 after_success:
