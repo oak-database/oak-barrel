@@ -7,9 +7,9 @@
 
 ### Versions
 
-`oak-barrel` version: *can be found with `npm list oak-barrel`]*
-Node.js version: *can be found with `node -v`]*
-NPM version: *can be found with `npm -v`]*
+`oak-barrel` version: *can be found with `npm list oak-barrel`*
+Node.js version: *can be found with `node -v`*
+NPM version: *can be found with `npm -v`*
 
 ### Can the issue be reliably reproduced?
 
