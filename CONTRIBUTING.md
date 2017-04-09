@@ -6,7 +6,7 @@ effective contributions to the package.
 ## Issues
 
 Creating an issue on GitHub is a great way to report problems, ask questions, and make suggestions. An issue can be
-created by clicking [here](https://github.com/BitcoinUnlimited/BitcoinUnlimitedWeb/issues/new).
+created by clicking [here](https://github.com/oak-database/oak-barrel/issues/new).
 
 If you are reporting a problem, please try to give a thorough description of the problem. The version of `oak-barrel`,
 Node.js,
