@@ -86,7 +86,7 @@ git checkout -b MY-NEW-FEATURE
 
 The following development scripts are available to help you while working on the package:
 
-* `npm test`: Builds the project and runs the test suite
-* `npm run build`: Builds the project from `src` into `.dist`
+* `npm run build`: Builds the project from `src` into `.dist` and the tests from `test` to `.test`
 * `npm run lint`: Lints the project for syntax and styling errors
+* `npm test`: Runs the test suite
 * `npm run coverage`: Runs the test suite and prints out the code coverage

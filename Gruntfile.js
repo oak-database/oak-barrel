@@ -58,9 +58,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-mocha-cli');
     grunt.loadNpmTasks('grunt-contrib-clean');
 
-    grunt.registerTask('build', ['clean:dist', 'babel:dist']);
+    grunt.registerTask('build', ['build:dist', 'build:test']);
+    grunt.registerTask('build:dist', ['clean:dist', 'babel:dist']);
+    grunt.registerTask('build:test', ['clean:test', 'babel:test']);
     grunt.registerTask('lint', ['eslint']);
-    grunt.registerTask('test', ['lint', 'build', 'clean:test', 'babel:test', 'mochacli']);
-    grunt.registerTask('prepublish', ['test', 'clean:dist', 'babel:dist']);
+    grunt.registerTask('test', ['mochacli']);
+    grunt.registerTask('prepublish', ['build:dist', 'build:test', 'test', 'clean:dist', 'babel:dist']);
 
 };

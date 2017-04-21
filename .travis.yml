@@ -6,15 +6,23 @@ node_js:
   - '6'
   - '5'
   - '4'
+  - '0.12'
 
 install:
+  - nvm install 6
+  - npm -v
   - npm install
+  - if [ "$TRAVIS_NODE_VERSION" = 6 ]; then npm run lint; fi
+  - npm run build
 
 script:
-  - npm run coverage
+  - nvm use $TRAVIS_NODE_VERSION
+  - npm -v
+  - npm test
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - if [ "$TRAVIS_NODE_VERSION" = 6 ]; then npm run coverage; fi
+  - if [ "$TRAVIS_NODE_VERSION" = 6 ]; then bash <(curl -s https://codecov.io/bash); fi
 
 deploy:
   provider: npm
